@@ -4,7 +4,7 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
+PROJECT_DIR := $(shell pwd | rev | cut -f1 -d'/' - | rev)
 
 #################################################################################
 # COMMANDS                                                                      #
