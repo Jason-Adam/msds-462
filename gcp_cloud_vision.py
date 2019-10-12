@@ -63,9 +63,9 @@ def main(input_filename, output_filename, max_results):
 
 
 if __name__ == "__main__":
-    file_name = os.path.abspath("data/random_people.jpg")
+    file_name = os.path.abspath("img/random_people.jpg")
     main(
         input_filename=file_name,
-        output_filename="facial_test_response_random_people.jpg",
+        output_filename="img/facial_test_response_random_people.jpg",
         max_results=6,
     )
