@@ -9,7 +9,6 @@ pandas = "*"
 numpy = "*"
 matplotlib = "*"
 ipykernel = "*"
-blackcellmagic = "*"
 yellowbrick = "*"
 google-cloud-vision = "*"
 

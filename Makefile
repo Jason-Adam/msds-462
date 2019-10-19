@@ -21,7 +21,7 @@ lint:
 
 ## Set up python virtual environment
 create_environment:
-	pipenv install --dev --skip-lock
+	pipenv install --dev
 
 ## Bind ipython kernel to env: only run after "pipenv shell"
 bind_kernel:
