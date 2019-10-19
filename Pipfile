@@ -11,6 +11,7 @@ matplotlib = "*"
 ipykernel = "*"
 yellowbrick = "*"
 google-cloud-vision = "*"
+google-cloud-automl = "*"
 
 [requires]
 python_version = "3.7"
